@@ -1,0 +1,9 @@
+# Camoufox - Stealth browser for bypassing bot detection
+camoufox[geoip]>=0.4.11
+
+# Playwright Captcha Solver
+playwright-captcha
+
+# web service framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
