@@ -40,7 +40,7 @@ class CaptchaRequest(BaseModel):
 
 
 class ExportRequest(BaseModel):
-    auth_url: str  # URL completa del token recibida por correo
+    auth_url: str  # Detecta el correo token URL completo que el usuario recibe por correo
     debug: bool = False
 
 
